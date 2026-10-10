@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4413c6e9a6e890e498957fa855ba4fa8, type: 3}
+  m_Name: Fin_Food
+  m_EditorClassIdentifier: Assembly-CSharp::TraderData
+  traderId: Food Trader
+  inventory:
+  - Type: 1
+    priceMultiplier: 0.75
+    currentPrice: 0
+    stock: 50
+  - Type: 2
+    priceMultiplier: 0.8
+    currentPrice: 0
+    stock: 45
+  - Type: 3
+    priceMultiplier: 0.85
+    currentPrice: 0
+    stock: 40
+  - Type: 4
+    priceMultiplier: 0.9
+    currentPrice: 0
+    stock: 35
+  - Type: 5
+    priceMultiplier: 1.2
+    currentPrice: 0
+    stock: 20
+  - Type: 6
+    priceMultiplier: 1.3
+    currentPrice: 0
+    stock: 15
+  - Type: 7
+    priceMultiplier: 1.25
+    currentPrice: 0
+    stock: 15
+  - Type: 8
+    priceMultiplier: 1.15
+    currentPrice: 0
+    stock: 20
+  - Type: 9
+    priceMultiplier: 1.25
+    currentPrice: 0
+    stock: 15
+  - Type: 10
+    priceMultiplier: 1.3
+    currentPrice: 0
+    stock: 12
+  - Type: 11
+    priceMultiplier: 1.4
+    currentPrice: 0
+    stock: 10
+  - Type: 12
+    priceMultiplier: 1.3
+    currentPrice: 0
+    stock: 12
+  productionItems:
+  - Type: 1
+    amountPerDay: 10
+  - Type: 2
+    amountPerDay: 8
+  - Type: 3
+    amountPerDay: 6
+  - Type: 4
+    amountPerDay: 4
+  consumptionItems:
+  - Type: 11
+    amountPerDay: 1
+  - Type: 12
+    amountPerDay: 2
+  - Type: 5
+    amountPerDay: 2
+  saleLimit: -1
+  buyLimit: -1
+  money: 12000

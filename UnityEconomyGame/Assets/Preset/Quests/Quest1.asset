@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86f6dd296d995624b8f7cef5c0b1b37a, type: 3}
+  m_Name: Quest1
+  m_EditorClassIdentifier: Assembly-CSharp::QuestData
+  questName: Food for the Quarry
+  description: Stone Trader is running low on food supplies. Deliver 10 Potatoes
+    from Food Trader to Stone Trader.
+  questType: 0
+  itemType: 1
+  requiredAmount: 10
+  giverTraderId: Food Trader
+  destinationTraderId: Stone Trader
+  moneyReward: 100
+  experienceReward: 100
